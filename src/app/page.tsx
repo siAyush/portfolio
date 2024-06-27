@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils";
 import { MailIcon } from "lucide-react";
 import { Icons } from "@/components/icons";
 import { buttonVariants } from "@/components/ui/button";
-import Markdown from "react-markdown";
 import NavBar from "@/components/navbar";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -90,9 +89,9 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm dark:prose-invert">
+          <div className="prose max-w-full text-pretty font-sans text-sm dark:prose-invert">
             {DATA.summary}
-          </Markdown>
+          </div>
         </BlurFade>
       </section>
 
