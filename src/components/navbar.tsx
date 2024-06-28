@@ -3,7 +3,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-between items-center p-4">
+    <nav className="flex justify-evenly items-center p-4">
       <ul className="flex space-x-5">
         <li>
           <Link href="#about" className="hover:underline">
