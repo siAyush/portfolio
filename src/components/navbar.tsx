@@ -31,7 +31,9 @@ export default function NavBar() {
           </Link>
         </li>
       </ul>
-      <ModeToggle />
+      <div className="ml-4 md:ml-10" >
+        <ModeToggle />
+      </div>
     </nav>
   );
 }
