@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-self-end">
+    <nav className="flex justify-self-end mb-5">
       <ul className="flex space-x-5">
         <li>
           <Link href="/" className="hover:underline">
