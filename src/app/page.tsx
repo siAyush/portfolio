@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils";
 import { MailIcon } from "lucide-react";
 import { Icons } from "@/components/icons";
 import { buttonVariants } from "@/components/ui/button";
-import { ModeToggle } from "@/components/mode-toggle";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -69,7 +68,6 @@ export default function Page() {
                 >
                   <Icons.x className="size-5" />
                 </Link>
-                <ModeToggle />
               </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
