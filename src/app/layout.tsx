@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
+import NavBar from "@/components/navbar";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -50,7 +51,8 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="dark">
+          <NavBar />
           {children}
           <Analytics />
         </ThemeProvider>

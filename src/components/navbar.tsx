@@ -1,37 +1,20 @@
 import Link from "next/link";
-import { ModeToggle } from "./mode-toggle";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-evenly items-center p-4">
+    <nav className="flex justify-self-end">
       <ul className="flex space-x-5">
         <li>
-          <Link href="#about" className="hover:underline">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link href="#skills" className="hover:underline">
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link href="#projects" className="hover:underline">
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link href="#work" className="hover:underline">
-            Work
+          <Link href="/" className="hover:underline">
+            home
           </Link>
         </li>
         <li>
           <Link href="/blog" className="hover:underline">
-            Blogs
+            blog
           </Link>
         </li>
       </ul>
-        <ModeToggle />
     </nav>
   );
 }
