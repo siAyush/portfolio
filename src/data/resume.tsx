@@ -51,7 +51,7 @@ export const DATA = {
       start: "Dec 2022",
       end: "Present",
       description:
-        "Successfully implemented a range of new features, significantly enhancing the functionality and user experience of our application. Led a dedicated team to integrate Google Tag Manager (GTM), enabling more efficient tracking and analytics. Improved code coverage by writing comprehensive unit and integration tests, ensuring higher reliability and maintainability of the codebase. Initiated and managed the migration from Next.js 10 to Next.js 12, leveraging the latest framework capabilities for better performance and scalability.",
+        "Successfully implemented a range of new features to enhance both application functionality and user experience. Led efforts to increase code coverage from 40% to 82% by developing comprehensive unit and integration tests, ensuring greater reliability and maintainability. Spearheaded the implementation of a micro frontend architecture, enabling modular development and seamless integration of multiple frontend applications, which improved scalability and maintainability. Collaborated closely with the frontend team to integrate APIs smoothly, ensuring optimal functionality and a consistent user experience across the application. Additionally, led the integration of Google Tag Manager (GTM) for improved tracking and analytics, and worked with AWS to deploy and scale applications efficiently.",
     },
     {
       company: "NNT",
@@ -63,7 +63,7 @@ export const DATA = {
       start: "June 2021",
       end: "Nov 2021",
       description:
-        "Developed a monorepo Proof of Concept (PoC) for a Next.js project, demonstrating its feasibility and benefits in a multi-package repository setup. Successfully transitioned the PoC to a production environment, streamlining the development workflow, improving code sharing and reuse, and enhancing the overall project structure. This initiative significantly improved maintainability and collaboration across different teams and projects.",
+        "Worked with backend technologies like Node.js and Express to develop RESTful APIs and integrate them with frontend systems. Gained hands-on experience with version control using Git and GitHub for collaborative development. Contributed to the enhancement of existing codebases by fixing bugs."
     },
   ],
 
