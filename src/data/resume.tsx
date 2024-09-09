@@ -21,6 +21,8 @@ export const DATA = {
     "Postgres",
     "Docker",
     "C",
+    "Kafka",
+    "AWS"
   ],
   contact: {
     email: "siayush.gupta@gmail.com",
