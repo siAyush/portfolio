@@ -12,17 +12,22 @@ export const DATA = {
     "As a Software Engineer, I excel in transforming innovative concepts into fully-fledged products, ready for launch. My expertise primarily lies in Python, NextJS, Node.js, and Go. With over two years of experience, I have honed my skills in delivering high-quality, scalable solutions in diverse and dynamic environments.",
   avatarUrl: "https://avatars.githubusercontent.com/u/28400861?v=4",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
     "C",
+    "Go",
+    "Typescript",
+    "JavaScript",
+    "Python",
+    "SQL",
+    "Postgres",
+    "MongoDB",
+    "Elastic Search",
+    "React",
+    "NextJs",
+    "NodeJs",
+    "ExpressJs",
+    "Docker",
     "Kafka",
-    "AWS"
+    "AWS",
   ],
   contact: {
     email: "siayush.gupta@gmail.com",
@@ -65,15 +70,24 @@ export const DATA = {
       start: "June 2021",
       end: "Nov 2021",
       description:
-        "Worked with backend technologies like Node.js and Express to develop RESTful APIs and integrate them with frontend systems. Gained hands-on experience with version control using Git and GitHub for collaborative development. Contributed to the enhancement of existing codebases by fixing bugs."
+        "Worked with backend technologies like Node.js and Express to develop RESTful APIs and integrate them with frontend systems. Gained hands-on experience with version control using Git and GitHub for collaborative development. Contributed to the enhancement of existing codebases by fixing bugs.",
     },
   ],
 
   projects: [
     {
-      title: "miro",
-      description: "A Drawing app",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+      title: "ingestor",
+      description:
+        "Efficiently manage and query vast log data volumes with a scalable Log Ingestor and Query Interface, featuring real-time ingestion, advanced filtering, and a user-friendly interface.",
+      technologies: [
+        "Go",
+        "Kafka",
+        "Elastic Search",
+        "Docker",
+        "Kibana",
+        "Typescript",
+        "Shadcn UI",
+      ],
       links: [
         // {
         //   type: "Website",
@@ -82,7 +96,7 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/siAyush/miro",
+          href: "https://github.com/siAyush/ingestor",
           icon: <Icons.github className="size-3" />,
         },
       ],
