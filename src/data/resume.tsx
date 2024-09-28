@@ -6,18 +6,12 @@ export const DATA = {
   url: "https://github.com/siAysuh",
   location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/Delhi",
-  description:
-    "Detail-oriented Software Engineer dedicated to building high-quality products.",
+  description: "Software Engineer",
   summary:
-    "As a Software Engineer, I excel in transforming innovative concepts into fully-fledged products, ready for launch. My expertise primarily lies in Python, NextJS, Node.js, and Go. With over two years of experience, I have honed my skills in delivering high-quality, scalable solutions in diverse and dynamic environments.",
+    "I work as a fullstack developer during the day, learning low-level and systems programming.",
   avatarUrl: "https://avatars.githubusercontent.com/u/28400861?v=4",
-  skills: [
-    "C",
-    "Go",
-    "Typescript",
-    "JavaScript",
-    "Python",
-    "SQL",
+  languages: ["C", "Go", "Typescript", "JavaScript", "Python", "SQL"],
+  technologies: [
     "Postgres",
     "MongoDB",
     "Elastic Search",
@@ -53,24 +47,24 @@ export const DATA = {
       href: "https://www.infogain.com/",
       badges: [],
       location: "Remote",
-      title: "Full Stack Engineer",
+      title: "Software Engineer",
       logoUrl: "/atomic.png",
       start: "Dec 2022",
       end: "Present",
       description:
-        "Successfully implemented a range of new features to enhance both application functionality and user experience. Led efforts to increase code coverage from 40% to 82% by developing comprehensive unit and integration tests, ensuring greater reliability and maintainability. Spearheaded the implementation of a micro frontend architecture, enabling modular development and seamless integration of multiple frontend applications, which improved scalability and maintainability. Collaborated closely with the frontend team to integrate APIs smoothly, ensuring optimal functionality and a consistent user experience across the application. Additionally, led the integration of Google Tag Manager (GTM) for improved tracking and analytics, and worked with AWS to deploy and scale applications efficiently.",
+        "Implemented server-side applications using Node.js, ensuring efficient handling of backend logic. Collaborated closely with the frontend team to seamlessly integrate APIs into the frontend, ensuring smooth functionality and user experience across the application.  Implemented micro frontend architecture, enabling modular development and seamless integration of multiple frontend applications for improved scalability and maintainability.  Increased code coverage from 40% to 82% by writing comprehensive unit and integration tests, ensuring greater reliability and maintainability. Led the integration of Google Tag Manager (GTM) for improved tracking and analytics. Worked with AWS to deploy and scale applications",
     },
     {
       company: "NNT",
       href: "https://www.linkedin.com/company/nggawe-nirman/",
       badges: [],
       location: "Remote",
-      title: "Full Stack Engineer Intern",
+      title: "Software Engineer Intern",
       logoUrl: "/atomic.png",
       start: "June 2021",
       end: "Nov 2021",
       description:
-        "Worked with backend technologies like Node.js and Express to develop RESTful APIs and integrate them with frontend systems. Gained hands-on experience with version control using Git and GitHub for collaborative development. Contributed to the enhancement of existing codebases by fixing bugs.",
+        "Created and integrated REST APIs with frontend components using Node.js, facilitating seamless data retrieval and display. Contributed to the codebase by converting class-based components to functional components, improving performance, maintainability. Conducted testing and debugging, achieving 95% functionality and 30% faster issue identification with Jest.",
     },
   ],
 
@@ -86,6 +80,7 @@ export const DATA = {
         "Docker",
         "Kibana",
         "Typescript",
+        "NextJS",
         "Shadcn UI",
       ],
       links: [
