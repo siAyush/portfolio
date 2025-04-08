@@ -82,9 +82,14 @@ export default function Page() {
 
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-2xl font-bold">
+            <span className="text-green-300">&gt;</span> About
+          </h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
+          <p className="text-gray-500 italic text-xs mb-4">
+            [ break → understand → build ]
+          </p>
           <div className="prose max-w-full text-pretty font-sans text-sm dark:prose-invert">
             {DATA.summary}
           </div>
@@ -94,7 +99,9 @@ export default function Page() {
       <section id="skills">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <div className="flex min-h-0 flex-col gap-y-3">
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-2xl font-bold">
+              <span className="text-green-300">&gt;</span> Skills
+            </h2>
             <h2 className="text-l ">Languages</h2>
             <div className="flex flex-wrap gap-1">
               {DATA.languages.map((skill, id) => (
@@ -114,7 +121,9 @@ export default function Page() {
       <section id="projects">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
-            <h2 className="text-xl font-bold">Projects</h2>
+            <h2 className="text-2xl font-bold">
+              <span className="text-green-300">&gt;</span> Projects
+            </h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
@@ -137,7 +146,9 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-2xl font-bold">
+              <span className="text-green-300">&gt;</span> Worked With
+            </h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade key={work.company} delay={BLUR_FADE_DELAY * 5}>
