@@ -43,6 +43,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Primathon",
+      href: "https://primathon.in/",
+      badges: [],
+      location: "Hybrid",
+      title: "SDE Backend",
+      logoUrl: "/atomic.png",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Software Engineer with a focus on backend development.",
+    },
+    {
       company: "Infogain",
       href: "https://www.infogain.com/",
       badges: [],
@@ -50,7 +62,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/atomic.png",
       start: "Dec 2021",
-      end: "Present",
+      end: "April 2025",
       description:
         "Implemented server-side applications using Node.js, ensuring efficient handling of backend logic. Collaborated closely with the frontend team to seamlessly integrate APIs into the frontend, ensuring smooth functionality and user experience across the application.  Implemented micro frontend architecture, enabling modular development and seamless integration of multiple frontend applications for improved scalability and maintainability.  Increased code coverage from 40% to 82% by writing comprehensive unit and integration tests, ensuring greater reliability and maintainability. Led the integration of Google Tag Manager (GTM) for improved tracking and analytics. Worked with AWS to deploy and scale applications",
     },
